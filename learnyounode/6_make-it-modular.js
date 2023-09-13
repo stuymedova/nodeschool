@@ -38,7 +38,7 @@
 // who expects this contract. So your module could be used by anyone else who
 // does learnyounode, or the verifier, and just work.
 
-const filterFn = require('./6_mymodule.js');
+const filterFn = require('./6_my-module.js');
 
 const dirName = process.argv[2];
 const rawExtension = process.argv[3];
